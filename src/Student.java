@@ -67,7 +67,7 @@ public class Student {
     }
 
     public String toString(){
-        return firstName + " " + lastName + ", age " + age + ", year" + year + ", " + address;
+        return firstName + " " + lastName + ", age " + age + ", year " + year + ", " + address;
     }
 
 

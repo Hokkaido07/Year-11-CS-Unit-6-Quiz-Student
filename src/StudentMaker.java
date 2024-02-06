@@ -8,9 +8,6 @@ public class StudentMaker {
     int age = student.birthday();
     System.out.println(age);
     System.out.println(student);
-
-
-    
   }
   
 }
