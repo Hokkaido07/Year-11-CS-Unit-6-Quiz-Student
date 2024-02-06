@@ -1,2 +1,44 @@
 public class Address {
+    //properties
+    private String district;
+    private String street;
+    private int streetNumber;
+
+    //constructor
+    public Address(String district, String street, int streetNumber){
+        this.district = district;
+        this.street = street;
+        this.streetNumber = streetNumber;
+    }
+
+    //methods
+    public String getDistrict(){
+        return district;
+    }
+
+    public String getStreet(){
+        return street;
+    }
+
+    public int getStreetNumber(){
+        return streetNumber;
+    }
+
+    public void setDistrict(String district){
+        this.district = district;
+    }
+
+    public void setStreet (String street){
+        this.street = street;
+    }
+
+    public void setStreetNumber(int streetNumber){
+        this.streetNumber = streetNumber;
+    }
+
+    public String toString(){
+        return streetNumber + " " + street + ", " + district;
+    }
+
+
 }
